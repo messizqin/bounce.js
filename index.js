@@ -21,7 +21,7 @@ class Bounce{
 	bounce(ms, counter, dy, dx, press){
 		if(!this.bounce_started){
 			this.bouncing = {
-				amptitude: press,
+				press: press,
 			};
 			this.bounce_started = true;
 			this.bouncing.quan = counter;
