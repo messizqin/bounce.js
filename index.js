@@ -49,6 +49,5 @@ class Bounce{
 				this.bounce(ms, counter - 1);
 			}, ms * dec);
 		}, ms * dec);
-		console.log(ms);
 	}
 }
